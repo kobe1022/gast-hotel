@@ -1,0 +1,32 @@
+# compiled output
+dist
+
+# Abhaengige Dateien
+node_modules
+package-lock.json
+
+# Generierte Dateien
+coverage
+build
+temp
+tmp
+extras/doc/html/*
+!extras/doc/html/.gitkeep
+dependency-check-report.html
+
+# Sensible Daten (Passwort, Token, private Schluessel)
+.env
+extras/compose/gast/.env
+extras/compose/keycloak/tls/key.pem
+extras/compose/postgres/password.txt
+extras/compose/postgres/init/tls/server.key
+src/config/tls/key.pem
+extras/bruno/gast/environments/*.local.yml
+sonar-project.properties
+
+# Logs
+log
+logs
+*.log
+pnpm-debug.log*
+.scannerwork

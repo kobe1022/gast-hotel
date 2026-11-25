@@ -1,0 +1,12 @@
+# Platzhalter: wird mit dem Meilenstein "Tests und CI" ausgebaut
+# (pnpm install --frozen-lockfile, Lint, Format, tsc, Tests).
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  platzhalter:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI folgt"

@@ -1,0 +1,11 @@
+# Platzhalter: wird mit dem Meilenstein "Codeanalyse und Sicherheit" ausgebaut.
+name: Dependency Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  platzhalter:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "OWASP Dependency Check folgt"
